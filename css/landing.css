@@ -179,10 +179,6 @@ nav li {
   .background-control {
     display: none;
   }
-  .top-nav a {
-    margin: 0px 25px;
-  }
-
   #bg-video {
     min-height: 105vh;
     max-height: 105vh;
