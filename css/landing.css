@@ -172,7 +172,7 @@ nav li {
 .background-control p:hover {
   opacity: 100%;
 }
-@media (max-width: 1080px) {
+@media (max-width: 1085px) {
   .background-control {
     display: none;
   }
