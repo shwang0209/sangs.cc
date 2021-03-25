@@ -83,7 +83,7 @@
 }
 .slides {
   display: flex;
-  height: 425px;
+  height: 42.5vh;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -91,14 +91,14 @@
   cursor: pointer;
 }
 .slide {
-  height: 500px;
+  height: 50vh;
   background-color: #ffffff;
 }
 .slides p {
   position: absolute;
   bottom: 12.5px;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin: 0px;
   z-index: 5;
   color: #222222;
