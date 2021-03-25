@@ -83,7 +83,7 @@
 }
 .slides {
   display: flex;
-  height: 42.5vh;
+  height: 45vh;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -96,7 +96,7 @@
 }
 .slides p {
   position: absolute;
-  top: -12.5px;
+  bottom: 12.5px;
   font-weight: 700;
   font-size: 1.5rem;
   margin: 0px;
