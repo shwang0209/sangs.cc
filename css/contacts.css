@@ -67,7 +67,7 @@ footer {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   #contacts h1 {
     margin: 50px 0px 25px 0px;
   }
