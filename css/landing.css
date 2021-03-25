@@ -193,6 +193,9 @@ nav li {
     font-size: 2rem;
     height: 100px;
   }
+  .top-nav a::before {
+    top: 80px;
+  }
 }
 #arrow {
   position: absolute;
