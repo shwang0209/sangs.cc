@@ -186,6 +186,10 @@ nav li {
     min-width: none;
     max-width: none;
   }
+  .top-nav {
+    font-size: 2rem;
+    height: 100px;
+  }
 }
 #arrow {
   position: absolute;
