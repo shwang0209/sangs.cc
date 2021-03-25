@@ -96,7 +96,7 @@
 }
 .slides p {
   position: absolute;
-  bottom: 12.5px;
+  bottom: -25px;
   font-weight: 700;
   font-size: 1.5rem;
   margin: 0px;
