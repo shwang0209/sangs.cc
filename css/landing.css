@@ -194,6 +194,10 @@ nav li {
   .top-nav a::before {
     top: 80px;
   }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
 #arrow {
   position: absolute;
