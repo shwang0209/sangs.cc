@@ -1,0 +1,32 @@
+/*  ====================
+    ANIMATIONS
+    ===================== */
+    @keyframes spin {
+        0%   {transform: rotatey(0deg); 
+              height: 270px;
+              width: 270px;}
+        70%  {transform: rotatey(360deg); 
+              height: 400px;
+              width: 400px;}
+        80%  {height: 150px;
+              width: 150px; }
+        90%  {height: 320px;
+              width: 320px; }
+        100% {transform: rotatey(360deg);
+              height: 270px;
+              width: 270px;}
+      }
+      @keyframes breathe {
+        0%    {transform: scale(1.0, 1.0);}
+        50%   {transform: scale(0.95, 0.95);}
+        100%  {transform: scale(1.0, 1.0);}
+      }
+      @keyframes bobble {
+        0%    { transform: translatey(0px);}
+        50%   { transform: translatey(10px);}
+        100%  { transform: translatey(0px);}
+      }
+      @keyframes nav-fill {
+        0%    { border-bottom: 0px solid #ff4a4f; }
+        100%  { border-bottom: 5px solid #ff4a4f; }
+      }

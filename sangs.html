@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Sangs</title>
+
+    <link rel='stylesheet' type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
+    <link rel='stylesheet' href='css/landing.css'>
+    <link rel='stylesheet' href='css/projects.css'>
+    <link rel='stylesheet' href='css/projects-expand.css'>
+    <link rel='stylesheet' href='css/journey.css'>
+    <link rel='stylesheet' href='css/contacts.css'>
+    <link rel='stylesheet' href='css/miscellaneous.css'>
+    <script type='text/javascript' src='js/script.js'></script>
+    <script type='text/javascript' src='js/modal.js'></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+
+<!-- Landing Page -->
+    <section class='landing'>
+      <nav class='top-nav'>
+        <ul>
+          <li><a id='nav-1' href='#arrow'>Projects</a></li>
+          <li><a id='nav-2' href='#journey-skip-point'>Journey</a></li>
+          <li><a id='nav-3' href='#contacts'>Contacts</a></li>
+        </ul>
+      </nav>
+      <video autoplay muted loop id="bg-video">
+        <source src="bgvideo3.mp4" type="video/mp4">
+      </video>
+      <!-- <div class='main-logo'></div> -->
+      <h1>Hey, I'm Sang.</h1>
+      <ul class='background-control'>
+        <p class='bg-left' id='graphic'>Graphic</p>
+        <p></p>
+        <p class='bg-left' id='motion'>Motion</p>
+        <p class='move'>Design</p>
+        <p class='bg-left' id='ui-ux'>UI / UX</p>
+        <p></p>
+      </ul>
+      <img src='https://i.imgur.com/Xsu9vD5.png' id='arrow'>
+    </section>
+
+<!-- Projects -->
+    <section id='projects'>
+    <!-- Mobile Carousel -->  
+      <div class='slider'>
+        <div class='slider-marker'>
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+          <a href="#slide-5"></a>
+          <a href="#slide-6"></a>
+        </div>
+    
+        <div class="slides">
+          <div class='slide' id="slide-1" onclick="openModal1()">
+            <div class='mobile-img stamford'></div>
+            <p>Stamford Bridge 3D Animation</p>
+          </div>
+          <div class='slide' id="slide-2" onclick="openModal2()">
+            <div class='mobile-img afj'></div>
+            <p>American Friends of Jamaica</p>
+          </div>
+          <div class='slide' id="slide-3" onclick="openModal3()">
+            <div class='mobile-img ecst'></div>
+            <p>East Coast Surf Tribe</p>
+          </div>
+          <div class='slide' id="slide-4" onclick="openModal4()">
+            <div class='mobile-img sangs'></div>
+            <p>Sangs.cc Motion Graphics</p>
+          </div>
+          <div class='slide' id="slide-5" onclick="openModal5()">
+            <div class='mobile-img prem'></div>
+            <p>Premier League Visuals</p>
+          </div>
+          <div class='slide' id="slide-6" onclick="openModal6()">
+            <div class='mobile-img logos'></div>
+            <p>Logo Designs</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Desktop Project Grid   -->
+      <div class='main-grid'>
+        <div class='project-container' id='open-1' onclick="openModal1()">
+          <div class='proj-img stamford'></div>
+          <h4>Stamford Bridge 3D Animation</h4>
+          <p>Cinema 4D, AfterEffects, Illustrator</p>
+        </div>
+        <div class='project-container' id='open-2' onclick="openModal2()">
+          <div class='proj-img afj'></div>
+          <h4>American Friends of Jamaica</h4>
+          <p>Illustrator, Photoshop, InDesign</p>
+        </div>
+        <div class='project-container' id='open-3' onclick="openModal3()">
+          <div class='proj-img ecst'></div>
+          <h4>East Coast Surf Tribe</h4>
+          <p>Illustrator</p>
+        </div>
+        <div class='project-container' id='open-4' onclick="openModal4()">
+          <div class='proj-img sangs'></div>
+          <h4>Sangs.cc Advertisement</h4>
+          <p>AfterEffects, Illustrator</p>
+        </div>
+        <div class='project-container' id='open-5' onclick="openModal5()">
+          <div class='proj-img prem'></div>
+          <h4>Premier League Visuals</h4>
+          <p>Illustrator, Photoshop, Piktochart</p>
+        </div>
+        <div class='project-container' id='open-6' onclick="openModal6()">
+          <div class='proj-img logos'></div>
+          <h4>Number Logos</h4>
+          <p>Illustrator</p>
+        </div>
+      </div>
+      
+    <!-- Modals -->
+      <div id="proj-1-expand" class="modal">
+        <div class="slides">
+          <div class='slide'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lV65jreWZ5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class='slide'>
+            <img src='images/Cinema4D/C4D_1_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Cinema4D/C4D_1_3.png'>
+          </div>
+        </div>
+        <div class="modal-content">
+          <h2>Stamford Bridge 3D Animation</h2>
+          <p>This video is my first venture into Cinema4D and the world of 3D in general. The video tells a story from Timo Werner’s perspective, a newly recruited soccer player from Germany. The camera alternates between POV shots and Television views, showing the game in which Timo Werner scored his first goal for his new team, Chelsea FC. The decision to leave most of the area largely untextured was a conscious choice to highlight the mental focus of the player.<br><br>This project initially started in AfterEffects, but ultimately the decision to use 3D objects led to the shift to Cinema 4D. Cinema 4D allowed for new layers of dynamism to be added to the project, as physics and character animations were now possible. This project was largely a learning experience as I got used to the program but I was still able to create something rather elaborate, especially with the post-compositing in AfterEffects. Most of the textures used in Cinema 4D, as well as the motion graphics present, were initially created using Adobe Illustrator.</p>
+          <button class="modal-close" onclick="closeModal()">Back to Projects</button>
+        </div>
+      </div>
+      <div id="proj-2-expand" class="modal">
+        <div class="slides">
+          <div class='slide'>
+            <img src='images/afj/AFJ_1_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_1_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_1_3.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_1_4.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_1_5.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_1_6.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_2_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_2_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_2_3.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_2_4.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_2_5.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_3_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_3_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/afj/AFJ_3_3.png'>
+          </div>
+        </div>
+        <div class="modal-content">       
+          <h2>American Friends of Jamaica</h2>
+          <h3>Honoree/Entertainer Intros</h3>
+          <p>In 2019, I stumbled upon the great opportunity of creating something great. Whilst I was working as a social media intern at the nonprofit organization American Friends of Jamaica, I was able to showcase my design skills to the executive director and was effectively made a graphic design intern. The most exciting project I undertook that summer was designing for the 2019 Hummingbird Gala.<br><br>The gala held greater meaning than the years prior, as the one and only World Record holder and Olympic Gold Medalist Usain Bolt would be honored at the event. To announce the honorees and the entertainers for 2019’s gala, I created a series of introductions to be posted on The AFJ’s social media platforms, as seen here.<br><br>The identity of the 2019 Hummingbird Gala was an elegant mix of black and gold; however, I wanted these introduction cards to stand out from the rest of the promotion materials that were created. I made a bold choice incorporating high contrasting accents to ensure they caught the audiences’ eyes and directed the attention to Usain Bolt, which had the highest chance to catch someone’s attention.<br><br>I took a more traditional approach to the entertainer introduction cards, sticking with the gala’s identity of black and gold. Some adjustments were made to the source photos and backgrounds to keep a uniform feel across the two posts.</p>
+          <h3>Hummingbird 2019 Identity</h3>
+          <p>I am personally excited to talk about these because this design is the one that Usain Bolt personally said he liked. They highlighted the presence of Usain Bolt using a silhouette of his signature pose. These banners were used for various social media platforms, as well as at the end of every email that was sent out from our email system, in order to promote the 2019 Hummingbird Gala.<br>These were preliminary designs for merchandise to be sold at the gala. Each design featured all three organizations vital to making this gala happen, as well as a simple design of a hummingbird or the silhouette of Usain Bolt previously used on the social media banners.</p>
+          <h3>Annual Report Booklet</h3>
+          <p>This booklet serves as The AFJ’s annual report for potential investors who are considering donating to the communities in need in Jamaica. It is used to highlight the impact that the nonprofit organization made over the previous year and provide insight for the investors. Using the colors of the Jamaican Flag was considered at one point; however, I decided in the end that basing the palette around hues of blue would provide a more pleasurable reading experience for the viewers.</p>
+          <button class="modal-close" onclick="closeModal()">Back to Projects</button>
+        </div>
+      </div>
+      <div id="proj-3-expand" class="modal">
+        <div class="slides">
+          <div class='slide'>
+            <img src='images/ECST/Logo_1_4.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/ECST/Logo_1_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/ECST/Logo_1_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/ECST/Logo_1_3.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/ECST/Logo_1_5.png'>
+          </div>
+        </div>
+        <div class="modal-content">
+          <h2>East Coast Surf Tribe</h2>
+          <h3>ECST Logo/Packaging</h3>
+          <p>The logo of East Coast Surf Tribe invokes what it strives to invoke in its practices. Free-flowing, clean waves of the ocean. The negative space found within the letters of “ECST” is reminiscent of designs found in surf culture, adding a layer of depth to the logo.<br><br>Some variants of the main logo, keeping the same motif of the waves of the ocean.<br><br>This packaging design was used for ECST merchandise such as shirts and stickers. It incorporates the blue color scheme reminiscent of the logo, present in the center of the package design. At the bottom of the design, ECST’s slogan, “Souls to Seas,” is written in a script font that resonates with the waves of the ocean.</p>
+          <button class="modal-close" onclick="closeModal()">Back to Projects</button>
+        </div>
+      </div>
+      <div id="proj-4-expand" class="modal">
+        <div class="slides">
+          <div class='slide'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D3JXx7oylTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class='slide'>
+            <img src='images/MotionGraphics/MotionGraphics_2_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/MotionGraphics/MotionGraphics_2_4.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/MotionGraphics/MotionGraphics_2_5.png'>
+          </div>
+        </div>
+        <div class="modal-content">
+          <h2>Sangs.cc Advertisement</h2>
+          <p>This brand’s logo is a semi-symmetric, geometric “S” shape encased in a border sharing the same gradient fill. This logo was designed to be able to elegantly spin as a 3D object, all while cleanly presenting itself in 2D. This logo also works in two-tone settings, which is vital for many situations in digital interfaces.<br><br>My first venture into AfterEffects served as an advertisement of sorts for this branding. The two main themes of this video was the use of lens flares and the use of diamond-shaped panels resembling the border of the logo.<br><br>A concept storyboard was also created for an alternative animation. In this concept, the logo would fold itself like an origami. This origami is actually foldable in real life using the steps listed above.</p>
+          <button class="modal-close" onclick="closeModal()">Back to Projects</button>
+        </div>
+      </div>
+      <div id="proj-5-expand" class="modal">
+        <div class="slides">
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_1_6.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_1_5.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_1_4.jpg'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_1_3.jpg'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/Prem_1_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/Prem_1_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/Prem_1_3.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_2_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_2_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_2_3.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_2_4.jpg'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_3_2.jpg'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_3_4.jpg'>
+          </div>
+          <div class='slide'>
+            <img src='images/Prem/SoccerPosters_3_3.jpg'>
+          </div>
+        </div>
+        <div class="modal-content">
+          <h2>Premier League Visuals</h2>
+          <h3>Chelsea Posters</h3>
+          <p>If there was a series of projects to look back upon to see the development of my graphic design skills, it would be this one. Ever since my first interactions with digital creation tools, I made a tradition of making annual roster posters for various soccer teams. To showcase this development, here is the lineup of posters for the team I support, Chelsea FC. The first few posters were made using an online website called Piktochart, before moving on to Adobe Photoshop and Adobe Illustrator. Every year, I would try to implement a new technique I learned over the last year to improve upon the last iteration.<br><br>This is the most recent version of the poster, which I turned more into an infographic over the previous iterations. By implementing panel designs prevalent in many modern UIs, I was able to present more information to provide a more in-depth view of the team.</p>
+          <h3>Premier League Posters</h3>
+          <p>Here are some of the other teams’ posters created over the years. Each poster incorporated themes of the teams they are representing.</p>
+          <h3>KFA Posters</h3>
+          <p>Occasionally, I would venture outside club teams and make similar posters for the Korean National Team.<br>To celebrate the roster selection that decided which players will be representing my home country, I created posters for each of the 23 players chosen to take the trip to Russia. I incorporated the colors prevalent on the jersey that Korea would be wearing the tournament, as well as tiger claw marks that represent the national fauna.</p>
+          <button class="modal-close" onclick="closeModal()">Back to Projects</button>
+        </div>
+      </div>
+      <div id="proj-6-expand" class="modal">
+        <div class="slides">
+          <div class='slide'>
+            <img src='images/Logo/Logo_3_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Logo/Logo_3_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Logo/Logo_3_3.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Logo/Logo_3_4.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Logo/Logo_2_1.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Logo/Logo_2_2.png'>
+          </div>
+          <div class='slide'>
+            <img src='images/Logo/Logo_2_3.JPG'>
+          </div>
+          <div class='slide'>
+            <img src='images/Logo/Logo_2_4.JPG'>
+          </div>
+        </div>
+        <div class="modal-content">
+          <h2>Logo Design Projects</h2>
+          <h3>Lush Logo Redesign</h3>
+          <p>This is a conceptual redesign of the cosmetic brand Lush’s logo. Currently, Lush is known for their stark black and white identity, which contrasts with their extremely colorful products. The most appealing part of their branding to me is this contrast, which I wanted to incorporate into the logo itself. Taking into account their belief for environmentally friendly products, I incorporated a set of leaves that contrast with the main part of the logo.<br>Here are some variants that can potentially be used. For example, the storefront can have LED signages that change the color of the leaves as needed. Perhaps, the colors can represent the season or the new products they are promoting at the time.</p>
+          <h3>Number Logos</h3>
+          <p>These two logos were created for personal use. They were based on two numbers that are deemed “lucky” in many cultures, especially those of the Eastern countries.<br><br>For instance, this geometric logo is created by combining elements of the numbers 2 and 9, and how they can be combined to create the number 7.<br><br>This logo’s motif is based on two things: a mobius strip and a whip. Using the fluid shape of the number 8 and its unending nature of it, this logo breaks away from the emerging trend of geometric logos, while being able to be used in a two-tone color scheme.</p>
+          <button class="modal-close" onclick="closeModal()">Back to Projects</button>
+        </div>
+      </div>
+      
+    </section>
+
+<!-- Journey -->
+    <div id='journey-skip-point'></div>
+    <section id='journey'>
+    
+    <!-- Journey Left -->
+      <div class='journey-left'>
+        <img src='https://i.imgur.com/h7s5MnA.png'>
+        <h1>Sanghoon Hwang</h1>
+        <p>(You can just call me Sang)</p>
+        <div class='buttons'>
+          <img src='images/journey/ResumeButton.png' class='resume' onclick="window.open('pdfs/ResumeFeb2021.pdf','mywindow')">
+          <img src='images/journey/PortfolioButton.png' class='portfolio' onclick="window.open('pdfs/PortfolioFeb2021.pdf','mywindow')">
+        </div>
+      </div>
+
+    <!-- Journey Right -->
+      <div class='journey-right'>
+        <nav class='journey-nav'>
+          <ul>
+            <li><button id='onset-button' onclick="journeyOnset()">Onset</button></li>
+            <li><button id='visions-button' onclick="journeyVisions()">Visions</button></li>
+            <li><button id='hobbies-button' onclick="journeyHobbies()">Hobbies</button></li>
+          </ul>
+        </nav>
+        <p id='journey-text'>My venture into the world of graphic design actually started when my high school French teacher made an offhand comment about a website called Piktochart. Later that week I made an account and started messing around with the tools that they give you. Before I knew it, I spent 2 years making over 50 posters and infographics on my free time.<br><br>Upon entering college, I decided to take my interest in graphic design to the next level and started self-learning Photoshop and Illustrator. I’m sure all of us have been here before; there were moments where I would feel incredibly frustrated by my own lack of knowledge, yet filled with excitement knowing what I’ll be able to do in the future.<br><br>So just a bit more effort I put in. Within a few years I ended up making things I could not have imagined when I started, including works for the one and only Usain Bolt. I cannot wait to see what I will have created in a few more years.<p>
+      </div>
+    </section>
+
+<!-- Contacts -->
+    <section id='contacts'>
+      <h1>Need something designed?</h1>
+      <p class='contacts-subheader'>I'm available for freelance projects now, and full-time employment starting June 2021.</p>
+      <div class='contact-grid'>
+        <div class='contact-grid-container' id='email' onclick="copyText()">
+          <img src='https://i.imgur.com/80E4KPz.png'>
+          <p id='prefer'>Preferred!</p>
+          <h3>sangs.contact@gmail.com</h3>
+        </div>
+        <div class='contact-grid-container' id='linkedin' onclick="window.open('https://www.linkedin.com/in/sanghoon-hwang/','mywindow')">
+          <img src='https://i.imgur.com/sd4VNqO.png'>
+          <h3>in/sanghoon-hwang/</h3>
+        </div>
+        <div class='contact-grid-container' id='insta' onclick="window.open('https://www.instagram.com/sangs_cc/','mywindow')">
+          <img src='https://i.imgur.com/OY7TWjm.png'>
+          <h3>@sangs_cc</h3>
+        </div>
+        <div class='contact-grid-container' id='twitter' onclick="window.open('https://twitter.com/Sangs_cc','mywindow')">
+          <img src='https://i.imgur.com/HJW2Dn7.png'>
+          <h3>@Sangs_cc</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer>Website coded and designed by Sanghoon Hwang.</footer>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,197 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f0f0f2;
+  color: #222222;
+  max-width: 100%;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+  
+/*  ====================
+    LANDING
+    ===================== */
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
+}
+.main-logo {
+  background-image: url('https://i.imgur.com/noPeHcG.png');
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  z-index: 5;
+}
+.landing h1 {
+  position: absolute;
+  bottom: 15%;
+  font-weight: 400;
+}
+
+@media (max-height: 550px) {
+  .landing h1 {
+    display: none;
+  }
+}
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  background-color: #f0f0f2;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(0,0,0, 0.25);
+  z-index: 10;
+  height: 50px;
+}
+.top-nav a {
+  color: #222222;
+  text-decoration: none;
+  margin: 0px 50px;
+  padding: 0px;
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+.top-nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-image: linear-gradient(to right, #ff4a4f, #4521b2);
+  position: absolute;
+  top: 30px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+.top-nav a:hover::before {
+  width: 100%;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 20px auto 20px auto;
+  position: relative;
+}
+#bg-video {
+  left: 0;
+  top: 0;
+  min-width: 105vw;
+  max-width: 105vw;
+  margin: 0px;
+  padding: 0px;
+  z-index: -1;
+}
+
+.background-control {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 10px;
+  position: absolute;
+  right: 10%;
+}
+.background-control p {
+  display: flex;
+  align-items: center;
+  transition: 0.4s ease-in;
+  cursor: initial;
+  position: relative;
+}
+.move {
+  animation: updown;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes updown {
+  0%    { top: -60px; }
+  20%   { top: -60px; }
+  30%   { top: 0px; }
+  70%   { top: 0px; }
+  80%   { top: 60px; }
+  100%  { top: 60px; }
+}
+.bg-left {
+  justify-content: flex-end;
+  opacity: 30%;
+}
+#graphic {
+  animation: flash1;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#motion {
+  animation: flash2;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#ui-ux {
+  animation: flash3;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes flash1 {
+  0%    { opacity: 100%; }
+  20%   { opacity: 100%; }
+  30%   { opacity: 30%; }
+  100%  { opacity: 30%; }
+}
+@keyframes flash2 {
+  20%   { opacity: 30%; }
+  30%   { opacity: 100%; }
+  70%   { opacity: 100%; }
+  80%   { opacity: 30%; }
+}
+@keyframes flash3 {
+  70%   { opacity: 30%; }
+  80%   { opacity: 100%; }
+  100%  { opacity: 100%; }
+}
+.background-control p:hover {
+  opacity: 100%;
+}
+@media (max-width: 900px) {
+  .background-control {
+    display: none;
+  }
+  .top-nav a {
+    margin: 0px 25px;
+  }
+
+  #bg-video {
+    min-height: 105vh;
+    max-height: 105vh;
+    min-width: none;
+    max-width: none;
+  }
+}
+#arrow {
+  position: absolute;
+  bottom: 5%;
+  animation: bobble;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  width: 50px;
+  opacity: 50%;
+}
