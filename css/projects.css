@@ -95,6 +95,8 @@
   background-color: #ffffff;
 }
 .slides p {
+  background-color: #ffffff;
+  width: 100%;
   position: absolute;
   bottom: -25px;
   font-weight: 700;
