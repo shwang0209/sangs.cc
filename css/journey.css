@@ -110,6 +110,9 @@
     margin: 50px 0px 100px 0px;
     height: 1250px;
   }
+  #journey h1 {
+    font-size: 3rem;
+  }
   .journey-left {
     border-right: none;
     width: 100%;
