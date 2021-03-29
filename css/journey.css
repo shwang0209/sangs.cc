@@ -77,12 +77,12 @@
   max-height: 150px;
   width: 50%;
   padding: 0px;
-  transition: 150ms ease-in-out;
   /* border: 1px solid red; */
 }
 .buttons img {
   max-height: 150px;
   margin: 0px auto;
+  transition: 250ms ease-in-out;
 }
 .buttons img:hover {
   opacity: 50%;
