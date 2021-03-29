@@ -24,7 +24,7 @@
   text-align: center;
   font-weight: 400;
 }
-#journey img {
+#profile-img {
   height: 250px;
   margin: 75px auto 25px auto;
   transition: 500ms ease-in-out;
@@ -120,7 +120,7 @@
     padding: 0px;
     margin: 50px 0px 0px 0px;
   }
-  #journey img {
+  #profile-img {
     margin-left: 0px;
     margin-right: 0px;
     height: 500px;
