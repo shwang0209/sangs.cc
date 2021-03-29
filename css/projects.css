@@ -85,6 +85,7 @@
   display: flex;
   height: 45vh;
   overflow-x: auto;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -93,6 +94,7 @@
 .slide {
   height: 45vh;
   background-color: #ffffff;
+  overflow-y: hidden;
 }
 .slides p {
   background-color: #ffffff;
