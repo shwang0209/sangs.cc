@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: top;
-  height: 600px;
+/*   height: 600px; */
   margin: 50px 150px 100px 150px;
 }
 .journey-left {
@@ -109,7 +109,7 @@
   #journey {
     flex-direction: column;
     margin: 200px 0px 100px 0px;
-    height: 2000px;
+/*     height: 2000px; */
   }
   #journey h1 {
     font-size: 3rem;
