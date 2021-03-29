@@ -132,13 +132,13 @@ PROJECT MODALS
     }
     .modal .slides {
         top: 0px;
-        width: 100vh;
+        min-width: 100vh;
         height: 50vh;
         padding: 0px;
         margin: 0px;
     }
     .modal .slide {
-        width: 80%;
+        min-width: 100vh;
         padding: 0px;
         margin: 0px;
     }
