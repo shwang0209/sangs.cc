@@ -70,6 +70,7 @@ footer {
 @media (max-width: 1085px) {
   #contacts h1 {
     margin: 50px 0px 25px 0px;
+    font-size: 3rem;
   }
   .contact-grid {
     grid-template-columns: 100px 100px;
@@ -95,5 +96,8 @@ footer {
   }
   .contacts-subheader {
     margin: 0px 25px 10px 25px;
+    font-size: 2rem;
   }
+  #contacts p {
+    font-size: 2rem;
 }
