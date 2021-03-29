@@ -68,6 +68,9 @@ footer {
 }
 
 @media (max-width: 1085px) {
+  #contacts {
+    height: 400px;
+  }
   #contacts h1 {
     margin: 50px 0px 25px 0px;
     font-size: 3rem;
