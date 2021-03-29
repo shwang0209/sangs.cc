@@ -126,6 +126,10 @@
     height: 500px;
     width: auto;
   }
+  .buttons img {
+    max-height: 100%;
+    margin: 0px auto;
+  }
   .journey-right {
     display: flex;
     flex-direction: column;
