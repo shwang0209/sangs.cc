@@ -193,7 +193,8 @@ nav li {
     height: 100px;
   }
   .top-nav a::before {
-    top: 70px;
+    top: 0px;
+    height: 10px;
   }
   body {
     max-width: 100vh;
