@@ -34,10 +34,10 @@ body {
   position: absolute;
   bottom: 15%;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-@media (max-height: 550px) {
+@media (max-height: 600px) {
   .landing h1 {
     display: none;
   }
