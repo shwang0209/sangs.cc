@@ -123,6 +123,8 @@
   #journey img {
     margin-left: 0px;
     margin-right: 0px;
+    height: 500px;
+    width: auto;
   }
   .journey-right {
     display: flex;
@@ -137,5 +139,6 @@
   }
   .journey-right p {
     margin-bottom: 50px;
+    font-size: 1.5rem;
   }
 }
