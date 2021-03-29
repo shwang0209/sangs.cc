@@ -176,6 +176,9 @@ nav li {
   opacity: 100%;
 }
 @media (max-width: 1085px) {
+  body {
+    max-width: 1080px;
+  }
   .landing {
     height: 90vh;
   }
