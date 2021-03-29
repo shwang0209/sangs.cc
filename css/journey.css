@@ -136,6 +136,9 @@
     width: 100%;
     font-size: 2rem;
   }
+  .journey-right button {
+      font-size: 2rem;
+  }
   .journey-nav {
     margin: 50px;
     font-size: 2rem;
