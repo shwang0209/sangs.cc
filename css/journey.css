@@ -71,17 +71,17 @@
 
 .buttons {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   margin: 50px;
-  height: 150px;
-  width: 40%;
+  max-height: 150px;
+  width: 50%;
   padding: 0px;
   transition: 150ms ease-in-out;
   /* border: 1px solid red; */
 }
 .buttons img {
-  height: 150px;
+  max-height: 150px;
   margin: 0px auto;
 }
 .buttons img:hover {
