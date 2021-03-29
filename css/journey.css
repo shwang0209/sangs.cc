@@ -127,7 +127,7 @@
     width: auto;
   }
   .buttons img {
-    height: 200px;
+    max-height: 150px;
     margin: 0px auto;
   }
   .journey-right {
