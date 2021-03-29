@@ -54,6 +54,7 @@ PROJECT MODALS
     left: 0px;
     border: none;
     color: #222222;
+    background-color: #f0f0f2;
     border-bottom: 2px solid #222222;
     font-size: .75rem;
     font-weight: 700;
@@ -131,8 +132,7 @@ PROJECT MODALS
     }
     .modal .slides {
         top: 0px;
-        width: 80%;
-        max-width: 100%;
+        width: 100vh;
         height: 50vh;
         padding: 0px;
         margin: 0px;
