@@ -18,7 +18,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid #222222;
+  border-right: 1px solid #aaaaaa;
   height: 100%;
   width: 50%;
   text-align: center;
@@ -54,7 +54,7 @@
   padding: 0px;
   margin: 0px;
   height: 50px;
-  border-right: 1px solid #222222;
+  border-right: 1px solid #aaaaaa;
   cursor: pointer;
   transition: 250ms ease-in-out;
 }
@@ -144,7 +144,7 @@
     font-size: 2rem;
   }
   .journey-nav ul:first-child {
-    border-left: 1px solid #222222;
+    border-left: 1px solid #aaaaaa;
   }
   .journey-right p {
     margin-bottom: 50px;
