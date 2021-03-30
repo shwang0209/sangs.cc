@@ -95,7 +95,7 @@ footer {
     display: none;
   }
   #prefer {
-    left: -5px;
+    display: none;
   }
   .contacts-subheader {
     margin: 0px 25px 10px 25px;
