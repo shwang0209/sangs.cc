@@ -89,6 +89,7 @@ PROJECT MODALS
     padding-top: 0px;
     margin-bottom: 0px;
     background-color: #f0f0f2;
+    cursor: default;
 }
 .modal .slide {
     display: flex;
