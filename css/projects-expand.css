@@ -98,6 +98,15 @@ PROJECT MODALS
     height: 88vh;
     background-color: #f0f0f2;
 }
+.modal .slide p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    top: auto;
+    background-color: none;
+}
 .modal .slides > div {
     position: fixed;
     scroll-snap-align: start;
