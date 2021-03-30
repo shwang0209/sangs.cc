@@ -106,6 +106,8 @@ PROJECT MODALS
     bottom: 0%;
     top: auto;
     background-color: none;
+    margin: 0px;
+    padding: 0px;
 }
 .modal .slides > div {
     position: fixed;
